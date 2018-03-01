@@ -1,0 +1,20 @@
+* nCr 組み合わせ
+// long値に収まるバージョン
+public long nCr(long n, long r) {
+    long t = 1;
+    for (int i = 0; i < r; i++) {
+        t *= n-i;
+        t /= i+1;
+    }
+    return t;
+}
+
+// long値に収まらないバージョン
+private long nCr(long n, long r) {
+    try {
+        return fact2(n).divide(fact2(n-r).multiply(fact2(r))).longValue();
+    } catch (Exception e) {
+        System.out.println("/ by zero. n="+n+" r="+r);
+        throw e;
+    }
+}
