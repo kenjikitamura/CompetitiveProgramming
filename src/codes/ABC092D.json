@@ -1,0 +1,49 @@
+{
+  "name" : "ABC092D",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "7 8",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1 1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 14",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "100 100",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/codes",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codes.ABC092D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.27",
+  "contestName" : "ABC092",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
