@@ -1,0 +1,39 @@
+{
+  "name" : "ABC090A",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "ant\nobe\nrec",
+    "output" : "abc\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "edu\ncat\nion",
+    "output" : "ean",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codes",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codes.ABC090A",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.30",
+  "contestName" : "ABC090",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
