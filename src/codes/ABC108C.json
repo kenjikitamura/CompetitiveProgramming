@@ -1,0 +1,93 @@
+{
+  "name" : "ABC108C",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2",
+    "output" : "9\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "5 3",
+    "output" : "1",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "31415 9265",
+    "output" : "27",
+    "index" : 2,
+    "active" : false
+  }, {
+    "input" : "35897 932",
+    "output" : "114191",
+    "index" : 3,
+    "active" : false
+  }, {
+    "input" : "6 4",
+    "index" : 4,
+    "active" : false
+  }, {
+    "input" : "9 4",
+    "index" : 5,
+    "active" : false
+  }, {
+    "input" : "10 5",
+    "index" : 6,
+    "active" : false
+  }, {
+    "input" : "20 5",
+    "index" : 7,
+    "active" : false
+  }, {
+    "input" : "12 4",
+    "index" : 8,
+    "active" : false
+  }, {
+    "input" : "13 4",
+    "index" : 9,
+    "active" : false
+  }, {
+    "input" : "14 4",
+    "index" : 10,
+    "active" : false
+  }, {
+    "input" : "15 4",
+    "index" : 11,
+    "active" : false
+  }, {
+    "input" : "16 4",
+    "index" : 12,
+    "active" : false
+  }, {
+    "input" : "20 4",
+    "index" : 13,
+    "active" : false
+  }, {
+    "input" : "12 7",
+    "index" : 14,
+    "active" : true
+  } ],
+  "location" : "src/codes",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codes.ABC108C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.01",
+  "contestName" : "ABC108",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
